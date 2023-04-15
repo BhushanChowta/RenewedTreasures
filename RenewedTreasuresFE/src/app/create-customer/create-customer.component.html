@@ -1,0 +1,52 @@
+
+<form (ngSubmit) ="onSubmit()" class="container">
+    <h2 style="text-align: center;">Register Customer</h2>
+
+    <table width="70%">
+        <tr>
+            <td><label>Customer ID</label></td>
+            <td><input type="text" name="customerId" id="customerId" [(ngModel)]="addcustomer.customerId"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Customer Name</label></td>
+            <td><input type="text" name="customerName" id="customerName" [(ngModel)]="addcustomer.customerName"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type="text" name="gender" id="gender" [(ngModel)]="addcustomer.gender"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Mail Id</label></td>
+            <td><input type="text" name="mailId" id="mailId" [(ngModel)]="addcustomer.mailId"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Phone</label></td>
+            <td><input type="text" name="phone" id="phone" [(ngModel)]="addcustomer.phone"/></td>
+        </tr>
+
+        <tr>
+            <td><label>address</label></td>
+            <td><input type="text" name="address" id="address" [(ngModel)]="addcustomer.address"/></td>
+        </tr>
+
+        <tr>
+            <td><label>username</label></td>
+            <td><input type="text" name="username" id="username" [(ngModel)]="addcustomer.username"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="text" name="password" id="password" [(ngModel)]="addcustomer.password"/></td>
+        </tr>
+
+    </table>
+    <br>
+    <button type="submit" >Register</button>
+
+
+
+</form>

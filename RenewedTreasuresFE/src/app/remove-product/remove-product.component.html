@@ -1,0 +1,29 @@
+<header></header>
+<div class="row" >
+    <!-- <div class="product-card"> -->
+      <div class="card" style="width: 20rem; margin: 7px; " *ngFor="let data of product | async" >
+      <div class="badge">Hot Deal!</div>
+      <div class="product-tumb">
+          <img src="{{data.imageUrl}}" style="height: 260px; width: 260px; " class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <span class="product-catagory">CATEGORY NO {{data.categoryId}} </span>
+          <h4>{{data.productName}}</h4>
+          <br>
+          <p class="card-text">{{data.productDescription}}</p>
+          
+          <div class="product-bottom-details">
+            <div class="product-price">₹{{data.productPrice}}</div>
+            <div class="product-price-btn">
+              <button type="button" style="color: red;" (click)="deleteProductById(data.productId)">Delete Product</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    <!-- </div> -->
+
+</div>
+
+  <br><br>

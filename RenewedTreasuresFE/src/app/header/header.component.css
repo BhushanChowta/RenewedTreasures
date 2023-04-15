@@ -1,0 +1,18 @@
+li{
+    color: white;
+    float: left;
+    font-size: 20px;
+    padding-right: 35px;
+}
+ul{
+    list-style-type: none;
+    
+}
+.card{
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}

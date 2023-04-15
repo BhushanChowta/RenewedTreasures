@@ -1,0 +1,37 @@
+<header></header>
+
+<form (ngSubmit) ="onSubmit()" class="container">
+    <h2 style="text-align: center;">Add New Product</h2>
+    <table width="70%">
+        <tr>
+            <td><label>Product Id</label></td>
+            <td><input type="text" name="productId" id="productId" [(ngModel)]="addproduct.productId"/></td>
+        </tr>
+        <tr>
+            <td><label>Product Name</label></td>
+            <td><input type="text" name="productName" id="productName" [(ngModel)]="addproduct.productName"/></td>
+        </tr>
+        <tr>
+            <td><label>Product Price</label></td>
+            <td><input type="text" name="productPrice" id="productPrice" [(ngModel)]="addproduct.productPrice"/></td>
+        </tr>
+        <tr>
+            <td><label>Product Description</label></td>
+            <td><input type="text" name="productDescription" id="productDescription" [(ngModel)]="addproduct.productDescription"/></td>
+        </tr>
+        <tr>
+            <td><label>ImageURL Link</label></td>
+            <td><input type="text" name="imageUrl" id="imageUrl" [(ngModel)]="addproduct.imageUrl"/></td>
+        </tr>
+        <tr>
+            <td><label>Category Id</label></td>
+            <td><input type="text" name="categoryId" id="categoryId" [(ngModel)]="addproduct.categoryId"/></td>
+        </tr>
+
+    </table>
+    <br>
+    <button type="submit" >Add Product</button>
+
+
+
+</form>

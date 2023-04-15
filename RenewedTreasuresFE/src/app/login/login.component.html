@@ -1,0 +1,54 @@
+<br>
+<br>
+<div class="container">
+  <h2 class="login-title">Log in</h2>
+
+  <form class="login-form">
+    <div>
+      <label for="name">Name </label>
+      <input type="text" placeholder="Enter Username" name="username" [(ngModel)]="model.username"   />
+    </div>
+
+    <div>
+      <label for="password">Password </label>
+      <input type="password" placeholder="Enter Password" name="password" [(ngModel)]="model.password"  />
+    </div>
+    <label>Forgot <a href="./updatecustomer">password?</a></label>
+    <label>New User ? <a routerLink="/register">Register</a></label>
+    <button class="btn btn--form" type="submit" (click)="loginUser()" value="Log in">
+      Log in
+    </button>
+  </form>
+</div>
+
+<!-- <section>
+  <div class="auth-one-bg-position auth-one-bg" id="auth-particles">
+        
+<h2>Login Form</h2>
+
+<form   method=" ">
+  <div class="imgcontainer">
+    
+  </div>
+
+  <div class="container">
+    <label  ><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" [(ngModel)]="model.username"   />
+
+    <label  ><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" [(ngModel)]="model.password"  />
+        
+    <button  (click)="loginUser()">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label><br>
+    <label>New User ?</label> <a routerLink="/register">Register</a>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+</section> -->

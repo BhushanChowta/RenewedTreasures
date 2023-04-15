@@ -1,0 +1,51 @@
+
+<form (ngSubmit) ="onSubmit()" class="container">
+    <h2 style="text-align: center;">Update Customer</h2>
+    <table width="70%">
+        <tr>
+            <td><label>Customer ID</label></td>
+            <td><input type="text" name="customerId" id="customerId" [(ngModel)]="updatecustomer.customerId"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Customer Name</label></td>
+            <td><input type="text" name="customerName" id="customerName" [(ngModel)]="updatecustomer.customerName"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type="text" name="gender" id="gender" [(ngModel)]="updatecustomer.gender"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Mail Id</label></td>
+            <td><input type="text" name="mailId" id="mailId" [(ngModel)]="updatecustomer.mailId"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Phone</label></td>
+            <td><input type="text" name="phone" id="phone" [(ngModel)]="updatecustomer.phone"/></td>
+        </tr>
+
+        <tr>
+            <td><label>address</label></td>
+            <td><input type="text" name="address" id="address" [(ngModel)]="updatecustomer.address"/></td>
+        </tr>
+
+        <tr>
+            <td><label>username</label></td>
+            <td><input type="text" name="username" id="username" [(ngModel)]="updatecustomer.username"/></td>
+        </tr>
+
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="text" name="password" id="password" [(ngModel)]="updatecustomer.password"/></td>
+        </tr>
+
+    </table>
+    <br>
+    <button type="submit" >Update</button>
+
+
+
+</form>
