@@ -19,8 +19,8 @@ Its a E-commerce website offers customers pre-owned items based on their prefere
 ### Login Page
 ![loginPage](./static/images/loginPage.png)
 
-### Payment Page
-![paymentPage](./static/images/paymentPage.png)
-
 ### Registration Page
 ![registrationPage](./static/images/regPage.png)
+
+### Payment Page
+![paymentPage](./static/images/paymentPage.png)
