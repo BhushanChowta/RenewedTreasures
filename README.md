@@ -4,7 +4,7 @@ Its a E-commerce website offers customers pre-owned items based on their prefere
 ## Available Features
 
 ### Home Page
-![Home Page](./static/images/homePage.png)
+![Home Page](./static/images/homePage.PNG)
 
 ### Admin Page
-![Admin Page](./static/images/adminPage.png)
+![Admin Page](./static/images/adminPage.PNG)
